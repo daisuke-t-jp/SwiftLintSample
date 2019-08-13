@@ -14,6 +14,7 @@
 		7E02255523023083007A7234 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E02255323023083007A7234 /* LaunchScreen.storyboard */; };
 		7E02256023023083007A7234 /* SwiftLintSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E02255F23023083007A7234 /* SwiftLintSampleTests.swift */; };
 		7E02256D23023473007A7234 /* lowerCamelClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E02256C23023473007A7234 /* lowerCamelClass.swift */; };
+		7E02257223025D26007A7234 /* T.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E02257123025D26007A7234 /* T.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +40,7 @@
 		7E02256123023083007A7234 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7E02256A230230DC007A7234 /* .swiftlint.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .swiftlint.yml; sourceTree = SOURCE_ROOT; };
 		7E02256C23023473007A7234 /* lowerCamelClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lowerCamelClass.swift; sourceTree = "<group>"; };
+		7E02257123025D26007A7234 /* T.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = T.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +86,7 @@
 				7E02254A23023081007A7234 /* AppDelegate.swift */,
 				7E02254C23023081007A7234 /* ViewController.swift */,
 				7E02256C23023473007A7234 /* lowerCamelClass.swift */,
+				7E02257123025D26007A7234 /* T.swift */,
 				7E02254E23023081007A7234 /* Main.storyboard */,
 				7E02255123023083007A7234 /* Assets.xcassets */,
 				7E02255323023083007A7234 /* LaunchScreen.storyboard */,
@@ -225,6 +228,7 @@
 			files = (
 				7E02254D23023081007A7234 /* ViewController.swift in Sources */,
 				7E02254B23023081007A7234 /* AppDelegate.swift in Sources */,
+				7E02257223025D26007A7234 /* T.swift in Sources */,
 				7E02256D23023473007A7234 /* lowerCamelClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
