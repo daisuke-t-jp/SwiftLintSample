@@ -1,5 +1,10 @@
+# Lint 対象を指定
 included:
-    - SwiftLintSample
+    - SwiftLintSample/
+# Lint 対象から除外する
+excluded:
+    - SwiftLintSample/T.swift
+# 無効にするルール
 disabled_rules:
     - file_length
     - trailing_comma
@@ -10,8 +15,12 @@ disabled_rules:
     - type_body_length
     - line_length
     - vertical_parameter_alignment
+# 変数などの名前の最低の長さを指定。これより短いと違反となる
+# 1 にしておくと、このルールが実質無効となる
 identifier_name:
     min_length: 1
+# 型名のルールに対しての excluded（除外）
+# ここでは lowerCamelClass という型名はルールの検査から除外される
 type_name:
     excluded:
       - lowerCamelClass
